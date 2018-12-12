@@ -6,5 +6,8 @@ module.exports = {
       global: 'RegExpTree',
       externals: {}
     }
+  },
+  babel: {
+    plugins: 'transform-flow-strip-types'
   }
 }
