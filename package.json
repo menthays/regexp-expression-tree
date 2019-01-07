@@ -1,5 +1,5 @@
 {
-  "name": "RegExpTree",
+  "name": "regexp-expression-tree",
   "version": "1.0.0-alpha",
   "description": "Describe RegExpTree here",
   "main": "lib/index.js",
