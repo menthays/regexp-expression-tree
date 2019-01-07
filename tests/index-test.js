@@ -3,6 +3,11 @@ import expect from 'expect'
 import {evaluate, convertRPN2Tree, postVisit, visit} from '../src/index.js'
 
 describe('RegTree Test', () => {
+  it('Simple evaluate test', () => {
+    expect(evaluate(convertRPN2Tree("/^a.*b$/"), 'acccccb'))
+      .toBeTruthy()
+  })
+
   it('Evaluate test', () => {
     expect(evaluate(convertRPN2Tree("/^a/g /b$/g AND /c/ OR"), 'addcddb'))
       .toBeTruthy()
