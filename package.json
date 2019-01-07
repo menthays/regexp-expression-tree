@@ -1,6 +1,6 @@
 {
   "name": "RegExpTree",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Describe RegExpTree here",
   "main": "lib/index.js",
   "module": "es/index.js",
