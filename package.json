@@ -1,6 +1,6 @@
 {
   "name": "regexp-expression-tree",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.1",
   "description": "Describe RegExpTree here",
   "main": "lib/index.js",
   "module": "es/index.js",
